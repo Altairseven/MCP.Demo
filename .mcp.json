@@ -1,0 +1,21 @@
+{
+  "inputs": [],
+  "servers": {
+    //"wheather-mcp": {
+    //  "type": "stdio",
+    //  "command": "dotnet",
+    //  "args": [
+    //    "run",
+    //    "--project",
+    //    "D:\\\\Proyectos\\\\.Net\\\\MCP.Demo\\\\MCP.Demo\\\\MCP.Demo.csproj",
+    //    "--no-build"
+    //  ],
+    //  "env": {}
+    //},
+    "mcp-demo-http": {
+      "type": "http",
+      "url": "https://localhost:7279/mcp",
+      "headers": {}
+    }
+  }
+}

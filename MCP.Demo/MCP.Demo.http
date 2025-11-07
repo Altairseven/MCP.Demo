@@ -1,0 +1,12 @@
+@MCP.Demo_HostAddress = http://localhost:5029
+###
+
+POST {{MCP.Demo_HostAddress}}/mcp/tools/clima
+Accept: application/json
+
+###
+
+POST {{MCP.Demo_HostAddress}}/mcp/tools/count_characters?message=habiaunavezunbarcochiquito
+Accept: application/json
+
+###
