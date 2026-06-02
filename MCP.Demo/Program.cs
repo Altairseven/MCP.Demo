@@ -3,8 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Refit;
 using Scalar.AspNetCore;
+using Microsoft.Extensions.Caching.Hybrid;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Register HybridCache
+builder.Services.AddHybridCache();
 
 builder.Services.AddOpenApi();
 
